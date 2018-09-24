@@ -22,7 +22,7 @@ import pytz
 import random
 import string
 from datetime import datetime
-
+import os
 
 
 app = Flask(__name__)
@@ -161,7 +161,9 @@ class User(db.Model):
     email = db.Column(db.String(100),nullable=False)
     token = db.Column(db.Text,nullable=False)
 
+
 if __name__ == "__main__":
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
     db.create_all()
-    app.run(debug= True);
 
