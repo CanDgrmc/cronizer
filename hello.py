@@ -29,11 +29,11 @@ app = Flask(__name__)
 api = Api(app)
 db = SQLAlchemy(app)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root@localhost/cronizer?'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://bc21954e9912a0:17e82e87@us-cdbr-iron-east-01.cleardb.net/heroku_5515d55fdb7870a?reconnect=true'
 app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_DB'] = 'cronizer'
+app.config['MYSQL_USER'] = 'b22170d4b4118d'
+app.config['MYSQL_PASSWORD'] = 'bac9cdf5'
+app.config['MYSQL_DB'] = 'gcp_7a3d4130254fb16e7401'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
 mysql = MySQL(app)
