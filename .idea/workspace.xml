@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a84ada2-3e6f-4ab4-8b36-014e9f6c5262" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
-    </list>
+    <list default="true" id="4a84ada2-3e6f-4ab4-8b36-014e9f6c5262" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +66,11 @@
         <entry file="file://$PROJECT_DIR$/hello.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="466">
-              <caret line="169" column="37" selection-start-line="169" selection-start-column="37" selection-end-line="169" selection-end-column="37" />
+              <caret line="169" column="47" selection-start-line="169" selection-start-column="47" selection-end-line="169" selection-end-column="47" />
               <folding>
                 <element signature="e#0#164#0" expanded="true" />
-                <marker date="1537792882606" expanded="true" signature="3932:3934" ph="..." />
-                <marker date="1537792882606" expanded="true" signature="4281:4544" ph="..." />
+                <marker date="1537793111589" expanded="true" signature="3932:3934" ph="..." />
+                <marker date="1537793111589" expanded="true" signature="4281:4544" ph="..." />
               </folding>
             </state>
           </provider>
@@ -384,11 +382,11 @@
     <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
-          <caret line="169" column="37" selection-start-line="169" selection-start-column="37" selection-end-line="169" selection-end-column="37" />
+          <caret line="169" column="47" selection-start-line="169" selection-start-column="47" selection-end-line="169" selection-end-column="47" />
           <folding>
             <element signature="e#0#164#0" expanded="true" />
-            <marker date="1537792882606" expanded="true" signature="3932:3934" ph="..." />
-            <marker date="1537792882606" expanded="true" signature="4281:4544" ph="..." />
+            <marker date="1537793111589" expanded="true" signature="3932:3934" ph="..." />
+            <marker date="1537793111589" expanded="true" signature="4281:4544" ph="..." />
           </folding>
         </state>
       </provider>
