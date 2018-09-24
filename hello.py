@@ -29,11 +29,12 @@ app = Flask(__name__)
 api = Api(app)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://bc21954e9912a0:17e82e87@us-cdbr-iron-east-01.cleardb.net/heroku_5515d55fdb7870a'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 #app.config['MYSQL_HOST'] = 'us-cdbr-iron-east-01.cleardb.net'
 #app.config['MYSQL_USER'] = 'bc21954e9912a0'
 #app.config['MYSQL_PASSWORD'] = '17e82e87'
 #app.config['MYSQL_DB'] = 'heroku_5515d55fdb7870a'
-#app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
+app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 db = SQLAlchemy(app)
 
 mysql = MySQL(app)
