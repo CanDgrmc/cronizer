@@ -47,6 +47,9 @@ TODOS = {
 
 parser = reqparse.RequestParser()
 
+app.route('/')
+def index():
+    return 'Hello, World!'
 
 class logMeIn(Resource):
     def post(self):
