@@ -27,7 +27,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 api = Api(app)
-db = SQLAlchemy(app)
+db = SQLAlchemy()
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://bc21954e9912a0:17e82e87@us-cdbr-iron-east-01.cleardb.net/heroku_5515d55fdb7870a?reconnect=true'
 app.config['MYSQL_HOST'] = 'us-cdbr-iron-east-01.cleardb.net'
