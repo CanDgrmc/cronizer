@@ -48,7 +48,7 @@
           <entry key="Procfile" value="15" />
           <entry key="css" value="21" />
           <entry key="html" value="433" />
-          <entry key="py" value="6820" />
+          <entry key="py" value="6821" />
           <entry key="txt" value="24" />
         </counts>
       </usages-collector>
@@ -57,7 +57,7 @@
           <entry key="CSS" value="21" />
           <entry key="HTML" value="433" />
           <entry key="PLAIN_TEXT" value="39" />
-          <entry key="Python" value="6820" />
+          <entry key="Python" value="6821" />
         </counts>
       </usages-collector>
     </session>
@@ -67,12 +67,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="483">
+              <caret line="165" column="20" selection-start-line="165" selection-start-column="20" selection-end-line="165" selection-end-column="20" />
               <folding>
                 <element signature="e#0#164#0" expanded="true" />
-                <marker date="1537790694150" expanded="true" signature="3867:3869" ph="..." />
-                <marker date="1537790694150" expanded="true" signature="4216:4478" ph="..." />
+                <marker date="1537791333415" expanded="true" signature="3867:3869" ph="..." />
+                <marker date="1537791333415" expanded="true" signature="4216:4478" ph="..." />
               </folding>
             </state>
           </provider>
@@ -189,11 +189,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="599" />
-    <option name="y" value="127" />
-    <option name="width" value="1164" />
-    <option name="height" value="907" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -314,15 +314,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="599" y="127" width="1164" height="907" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24955595" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14805058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32988358" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32988358" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27657267" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -409,12 +409,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="483">
+          <caret line="165" column="20" selection-start-line="165" selection-start-column="20" selection-end-line="165" selection-end-column="20" />
           <folding>
             <element signature="e#0#164#0" expanded="true" />
-            <marker date="1537790694150" expanded="true" signature="3867:3869" ph="..." />
-            <marker date="1537790694150" expanded="true" signature="4216:4478" ph="..." />
+            <marker date="1537791333415" expanded="true" signature="3867:3869" ph="..." />
+            <marker date="1537791333415" expanded="true" signature="4216:4478" ph="..." />
           </folding>
         </state>
       </provider>
