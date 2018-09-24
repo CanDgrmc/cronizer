@@ -49,7 +49,7 @@ parser = reqparse.RequestParser()
 
 @app.route('/')
 def index():
-    return 'Hello, World!'
+    return 'Nağber Popiş!'
 
 class logMeIn(Resource):
     def post(self):
