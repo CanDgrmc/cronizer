@@ -1,4 +1,4 @@
 flask_restful
 flask_mysqldb
-flask_sqlalchemy
+Flask-SQLAlchemy
 requests
