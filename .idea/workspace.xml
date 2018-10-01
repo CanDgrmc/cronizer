@@ -48,7 +48,7 @@
           <entry key="Procfile" value="15" />
           <entry key="css" value="21" />
           <entry key="html" value="433" />
-          <entry key="py" value="8236" />
+          <entry key="py" value="8360" />
           <entry key="txt" value="24" />
         </counts>
       </usages-collector>
@@ -57,7 +57,7 @@
           <entry key="CSS" value="21" />
           <entry key="HTML" value="433" />
           <entry key="PLAIN_TEXT" value="39" />
-          <entry key="Python" value="8236" />
+          <entry key="Python" value="8360" />
         </counts>
       </usages-collector>
     </session>
@@ -67,15 +67,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="185" column="25" selection-start-line="185" selection-start-column="25" selection-end-line="185" selection-end-column="25" />
+            <state relative-caret-position="-107">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="e#0#164#0" expanded="true" />
-                <marker date="1538396172112" expanded="true" signature="1024:1026" ph="..." />
-                <marker date="1538396172112" expanded="true" signature="1559:2206" ph="..." />
-                <marker date="1538396172112" expanded="true" signature="4262:4264" ph="..." />
-                <marker date="1538396172112" expanded="true" signature="4667:5159" ph="..." />
-                <marker date="1538396172112" expanded="true" signature="4953:5159" ph="..." />
+                <marker date="1538396603864" expanded="true" signature="1024:1026" ph="..." />
+                <marker date="1538396603864" expanded="true" signature="1559:2363" ph="..." />
+                <marker date="1538396603864" expanded="true" signature="4419:4421" ph="..." />
+                <marker date="1538396603864" expanded="true" signature="4824:5316" ph="..." />
+                <marker date="1538396603864" expanded="true" signature="5110:5316" ph="..." />
               </folding>
             </state>
           </provider>
@@ -394,15 +394,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="185" column="25" selection-start-line="185" selection-start-column="25" selection-end-line="185" selection-end-column="25" />
+        <state relative-caret-position="-107">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="e#0#164#0" expanded="true" />
-            <marker date="1538396172112" expanded="true" signature="1024:1026" ph="..." />
-            <marker date="1538396172112" expanded="true" signature="1559:2206" ph="..." />
-            <marker date="1538396172112" expanded="true" signature="4262:4264" ph="..." />
-            <marker date="1538396172112" expanded="true" signature="4667:5159" ph="..." />
-            <marker date="1538396172112" expanded="true" signature="4953:5159" ph="..." />
+            <marker date="1538396603864" expanded="true" signature="1024:1026" ph="..." />
+            <marker date="1538396603864" expanded="true" signature="1559:2363" ph="..." />
+            <marker date="1538396603864" expanded="true" signature="4419:4421" ph="..." />
+            <marker date="1538396603864" expanded="true" signature="4824:5316" ph="..." />
+            <marker date="1538396603864" expanded="true" signature="5110:5316" ph="..." />
           </folding>
         </state>
       </provider>

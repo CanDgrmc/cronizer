@@ -71,18 +71,20 @@ class crons(Resource):
     def get(self):
         token = request.headers.get('Token')
         parser.add_argument('project_id')
+        parser.add_argument('limit')
+        parser.add_argument('offset')
         req = parser.parse_args()
-
         user = validateToken(token)
         if user:
-            crons = Cron.query.filter_by(user_id=user.id,project_id=req['project_id']).all()
+            crons = Cron.query.filter_by(user_id=user.id,project_id=req['project_id']).limit(req['limit']).offset(req['offset']).all()
             objcrons = []
             for cr in crons:
                 objcrons.append({
                     'json': cr.json,
                     'columns': cr.columns,
                     'project_id': req['project_id'],
-                    'created_at' : str(cr.created_at)
+                    'created_at' : str(cr.created_at),
+                    'total': len(crons)
                 });
             return {'success': True, 'crons': objcrons}
         return token;
@@ -183,6 +185,6 @@ class Project(db.Model):
 
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 8000))
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='127.0.0.1', port=port)
     db.create_all()
 
