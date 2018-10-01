@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a84ada2-3e6f-4ab4-8b36-014e9f6c5262" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +18,8 @@
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -30,7 +31,7 @@
           <entry key="css" value="1" />
           <entry key="html" value="4" />
           <entry key="json" value="1" />
-          <entry key="py" value="4" />
+          <entry key="py" value="7" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -40,7 +41,7 @@
           <entry key="HTML" value="4" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="4" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -48,7 +49,7 @@
           <entry key="Procfile" value="15" />
           <entry key="css" value="21" />
           <entry key="html" value="433" />
-          <entry key="py" value="6875" />
+          <entry key="py" value="8066" />
           <entry key="txt" value="24" />
         </counts>
       </usages-collector>
@@ -57,7 +58,7 @@
           <entry key="CSS" value="21" />
           <entry key="HTML" value="433" />
           <entry key="PLAIN_TEXT" value="39" />
-          <entry key="Python" value="6875" />
+          <entry key="Python" value="8066" />
         </counts>
       </usages-collector>
     </session>
@@ -67,86 +68,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+            <state relative-caret-position="357">
+              <caret line="87" column="35" lean-forward="true" selection-start-line="87" selection-start-column="35" selection-end-line="87" selection-end-column="35" />
               <folding>
                 <element signature="e#0#164#0" expanded="true" />
-                <marker date="1537793377504" expanded="true" signature="3932:3934" ph="..." />
-                <marker date="1537793377504" expanded="true" signature="4281:4544" ph="..." />
+                <marker date="1538390903415" expanded="true" signature="1024:1026" ph="..." />
+                <marker date="1538390903415" expanded="true" signature="1559:2067" ph="..." />
+                <marker date="1538390903415" expanded="true" signature="4123:4125" ph="..." />
+                <marker date="1538390903415" expanded="true" signature="4583:5075" ph="..." />
+                <marker date="1538390903415" expanded="true" signature="4869:5075" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Flask_SQLAlchemy-2.3.2.dist-info/METADATA">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Flask_RESTful-0.3.6.dist-info/RECORD">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/mail/send.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/layouts/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -165,6 +96,7 @@
     <findStrings>
       <find>tok</find>
       <find>User</find>
+      <find>TODOS</find>
       <find>render</find>
     </findStrings>
   </component>
@@ -185,6 +117,8 @@
         <option value="$PROJECT_DIR$/templates/mail/send.html" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$USER_HOME$/Desktop/Module 2/Server- TCP Reverse Shell.py" />
+        <option value="$USER_HOME$/Desktop/Module 2/Client - TCP Reverse Shell.py" />
         <option value="$PROJECT_DIR$/hello.py" />
       </list>
     </option>
@@ -208,6 +142,11 @@
             <path>
               <item name="flask" type="b2602c69:ProjectViewProjectNode" />
               <item name="flask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,7 +176,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.hello">
+    <configuration name="Client - TCP Reverse Shell" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/Module 2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Module 2/Client - TCP Reverse Shell.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Server- TCP Reverse Shell" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/Module 2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Module 2/Server- TCP Reverse Shell.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flask" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -259,9 +240,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.hello" />
+      <item itemvalue="Python.Server- TCP Reverse Shell" />
+      <item itemvalue="Python.Client - TCP Reverse Shell" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.hello" />
+        <item itemvalue="Python.Client - TCP Reverse Shell" />
+        <item itemvalue="Python.Server- TCP Reverse Shell" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +284,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32988358" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27657267" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27114967" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -317,9 +305,6 @@
     <entry file="file://$PROJECT_DIR$/models/Cron.py" />
     <entry file="file://$PROJECT_DIR$/config/config.py" />
     <entry file="file://$PROJECT_DIR$/functions/init.py" />
-    <entry file="file://$PROJECT_DIR$/templates/mail/send.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/layouts/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -334,19 +319,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/main.css">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Flask_RESTful-0.3.6.dist-info/INSTALLER">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Flask_RESTful-0.3.6.dist-info/metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Flask_SQLAlchemy-2.3.2.dist-info/INSTALLER">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mail/send.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Module 2/Client - HTTP Reverse Shell.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="238">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Flask_SQLAlchemy-2.3.2.dist-info/METADATA">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Flask_RESTful-0.3.6.dist-info/RECORD">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
@@ -355,22 +355,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Flask_RESTful-0.3.6.dist-info/INSTALLER">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Flask_RESTful-0.3.6.dist-info/metadata.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Flask_RESTful-0.3.6.dist-info/RECORD">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Flask_SQLAlchemy-2.3.2.dist-info/INSTALLER">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/Flask_SQLAlchemy-2.3.2.dist-info/METADATA">
+    <entry file="file://$USER_HOME$/Desktop/Module 2/Client - TCP Reverse Shell.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        <state relative-caret-position="221">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -381,14 +369,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Module 2/Server- TCP Reverse Shell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="e#168#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        <state relative-caret-position="357">
+          <caret line="87" column="35" lean-forward="true" selection-start-line="87" selection-start-column="35" selection-end-line="87" selection-end-column="35" />
           <folding>
             <element signature="e#0#164#0" expanded="true" />
-            <marker date="1537793377504" expanded="true" signature="3932:3934" ph="..." />
-            <marker date="1537793377504" expanded="true" signature="4281:4544" ph="..." />
+            <marker date="1538390903415" expanded="true" signature="1024:1026" ph="..." />
+            <marker date="1538390903415" expanded="true" signature="1559:2067" ph="..." />
+            <marker date="1538390903415" expanded="true" signature="4123:4125" ph="..." />
+            <marker date="1538390903415" expanded="true" signature="4583:5075" ph="..." />
+            <marker date="1538390903415" expanded="true" signature="4869:5075" ph="..." />
           </folding>
         </state>
       </provider>

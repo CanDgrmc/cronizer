@@ -17,8 +17,6 @@ import hashlib
 import requests
 from pytz import timezone
 import pytz
-
-
 import random
 import string
 from datetime import datetime
@@ -37,19 +35,16 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 db = SQLAlchemy(app)
 
-mysql = MySQL(app)
-TODOS = {
-    'todo1': {'task': 'build an API'},
-    'todo2': {'task': '?????'},
-    'todo3': {'task': 'profit!'},
-}
 
 
 parser = reqparse.RequestParser()
 
 @app.route('/')
 def index():
+
     return 'Nağber Popiş!'
+
+
 
 class logMeIn(Resource):
     def post(self):
@@ -73,21 +68,34 @@ api.add_resource(logMeIn,'/login')
 
 
 class crons(Resource):
+    def get(self):
+        token = request.headers.get('Token')
+        user = validateToken(token)
+        print(user)
+        if user:
+            crons = Cron.query.filter_by(user_id=user.id).all()
+            objcrons = []
+            for cr in crons:
+                objcrons.append({
+                    'json': cr.json,
+                    'columns': cr.columns,
+                    'created_at' : str(cr.created_at)
+                });
+            return {'success': True, 'crons': objcrons}
+        return token;
     def post(self):
         parser.add_argument('token')
         parser.add_argument('json')
         parser.add_argument('columns')
         parser.add_argument('error_message')
         parser.add_argument('status')
+        parser.add_argument('project_id')
         postData = parser.parse_args();
 
 
         tz = pytz.timezone('Europe/Istanbul')
-        turkey = datetime.now(tz)
-        return str(turkey)
+        time_now = datetime.now(tz)
 
-        now_turkey = aware_date.astimezone(turkey)
-        return now_turkey
 
         user = validateToken(postData.token)
         if user:
@@ -96,11 +104,8 @@ class crons(Resource):
                 status = True
             else:
                 sendMail(user.email,postData.error_message)
-            d = datetime.now()
-            timezone = pytz.timezone("Europe/Istanbul")
-            d_aware = timezone.localize(d)
 
-            cron = Cron(user_id = user.id, json = postData.json, columns = postData.columns,created_at = datetime.now(),status = status )
+            cron = Cron(user_id = user.id, json = postData.json, columns = postData.columns,created_at = time_now,status = status )
             db.session.add(cron)
             db.session.commit()
             if cron.id:
@@ -157,6 +162,9 @@ class Cron(db.Model):
     created_at = db.Column(db.TIMESTAMP,nullable=False)
     status = db.Column(db.Boolean,nullable=False)
 
+    def toDict(self):
+        return {c.key: getattr(self, c.key) for c in inspect(self).mapper.column_attrs}
+
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(100),nullable=False)
@@ -164,9 +172,15 @@ class User(db.Model):
     email = db.Column(db.String(100),nullable=False)
     token = db.Column(db.Text,nullable=False)
 
+class Project(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer,nullable=False)
+    name = db.Column(db.String(100),nullable=False)
+    description = db.Column(db.Text,nullable=True)
+
 
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 8000))
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='127.0.0.1', port=port,debug=True)
     db.create_all()
 
