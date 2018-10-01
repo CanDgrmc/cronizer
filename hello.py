@@ -142,7 +142,45 @@ class projects(Resource):
             });
         return {'success': True, 'projects': objprojects},200
 
+    def post(self):
+        token = request.headers.get('Token')
+        parser.add_argument('name')
+        parser.add_argument('description')
+        req = parser.parse_args()
+        user = validateToken(token)
+
+        if user:
+            tz = pytz.timezone('Europe/Istanbul')
+            time_now = datetime.now(tz)
+            project = Project(user_id = user.id,name=req['name'],description=req['description'],created_at=time_now)
+            db.session.add(project)
+            db.session.commit()
+
+            trans = {
+                'id':project.id,
+                'name':project.name,
+                'description': project.description
+            }
+            if project.id:
+                return {'success': True, 'data': trans, 'created_at': str(project.created_at)}, 201
+            return {'success': False, 'error': 'Proje Kaydedilemedi'}, 403
+
+
 api.add_resource(projects, '/projects')
+
+class refresh_token(Resource):
+    def get(self):
+        token = request.headers.get('Token')
+        parser.add_argument('limit')
+        parser.add_argument('offset')
+        req = parser.parse_args()
+        user = validateToken(token);
+        new_token = id_generator(50);
+        user.token = new_token;
+        db.session.commit()
+        return {'success': True, 'token': new_token},200
+
+api.add_resource(refresh_token, '/refresh_token')
 
 
 
