@@ -70,15 +70,18 @@ api.add_resource(logMeIn,'/login')
 class crons(Resource):
     def get(self):
         token = request.headers.get('Token')
+        parser.add_argument('project_id')
+        req = parser.parse_args()
+
         user = validateToken(token)
-        print(user)
         if user:
-            crons = Cron.query.filter_by(user_id=user.id).all()
+            crons = Cron.query.filter_by(user_id=user.id,project_id=req['project_id']).all()
             objcrons = []
             for cr in crons:
                 objcrons.append({
                     'json': cr.json,
                     'columns': cr.columns,
+                    'project_id': req['project_id'],
                     'created_at' : str(cr.created_at)
                 });
             return {'success': True, 'crons': objcrons}
@@ -161,9 +164,8 @@ class Cron(db.Model):
     columns = db.Column(db.Text,nullable = True)
     created_at = db.Column(db.TIMESTAMP,nullable=False)
     status = db.Column(db.Boolean,nullable=False)
+    project_id = db.Column(db.Integer, nullable=False)
 
-    def toDict(self):
-        return {c.key: getattr(self, c.key) for c in inspect(self).mapper.column_attrs}
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
