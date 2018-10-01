@@ -84,9 +84,10 @@ class crons(Resource):
                     'columns': cr.columns,
                     'project_id': req['project_id'],
                     'created_at' : str(cr.created_at),
+                    'limit': req['limit'],
                     'total': len(crons)
                 });
-            return {'success': True, 'crons': objcrons}
+            return {'success': True, 'crons': objcrons},200
         return token;
     def post(self):
         parser.add_argument('token')
@@ -121,8 +122,27 @@ class crons(Resource):
 api.add_resource(crons, '/push')
 
 
+class projects(Resource):
+    def get(self):
+        token = request.headers.get('Token')
+        parser.add_argument('limit')
+        parser.add_argument('offset')
+        req = parser.parse_args()
+        user = validateToken(token);
+        projects = Project.query.filter_by(user_id = user.id).limit(req['limit']).offset(req['offset']).all();
+        objprojects = []
+        for pr in projects:
+            objprojects.append({
+                'id': pr.id,
+                'name': pr.name,
+                'description': pr.description,
+                'created_at': str(pr.created_at),
+                'limit': req['limit'],
+                'total': len(projects)
+            });
+        return {'success': True, 'projects': objprojects},200
 
-
+api.add_resource(projects, '/projects')
 
 
 
@@ -181,6 +201,7 @@ class Project(db.Model):
     user_id = db.Column(db.Integer,nullable=False)
     name = db.Column(db.String(100),nullable=False)
     description = db.Column(db.Text,nullable=True)
+    created_at = db.Column(db.TIMESTAMP, nullable=False)
 
 
 if __name__ == "__main__":
